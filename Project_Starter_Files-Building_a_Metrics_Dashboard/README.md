@@ -36,11 +36,13 @@ Measuring the objective we set in SLO measurable.  for e.g. number of server err
 *TODO:* It is important to know why we want to measure certain metrics for our customer. Describe in detail 5 metrics to measure these SLIs. 
 
 ```
-* The SLO will be latency. The SLI will be the response time of requests.
-* The SLO will be Failure rate. The SLI for that will be he amount of failures in a unit of time.
-* The SLO will be uptime. The SLI for that will be time a service is active.
-* The SLO will be Network capcity. The SLI indicates the average bandwidth in a specifi period of time.
-* The SLO will be Resource capcity. The SLI for that will be he amount of CPU and RAM usage.
+* The SLO will be latency. The SLI will be the *response time* of requests.
+* The SLO will be Failure rate. The SLI for that will be the amount of failures in a unit of time - *Error rate*.
+* The SLO will be uptime. The SLI for that will be time a service is active - *Availability*.
+* The SLO will be Network capcity. The SLI indicates the average bandwidth in a specified period of time.
+* The SLO will be Resource capcity. The SLI for that will be the amount of CPU and RAM usage.
+* Latency
+* Throughput
 
 ```
 
@@ -85,7 +87,6 @@ Description: Accessing /trace route in trial service get error 500.
 
 ## Creating SLIs and SLOs
 *TODO:* We want to create an SLO guaranteeing that our application has a 99.95% uptime per month. Name four SLIs that you would use to measure the success of this SLO.
-
 
 - Resource consumption - CPU and memory usage
 - Service availability - Backend/Frontend availability
